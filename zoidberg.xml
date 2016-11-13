@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <ServoController name="Servo Controller 1" serialNumber="AL00VDVP">
+        <Servo name="b1" port="1" />
+        <Servo name="r2" port="2" />
+        <Servo name="d3" port="3" />
+    </ServoController>
+    <LegacyModuleController name="Legacy Module 1" serialNumber="AL00YGDS">
+        <MotorController name="mc0" port="0">
+            <Motor name="bl" port="1" />
+            <Motor name="br" port="2" />
+        </MotorController>
+        <MotorController name="mc1" port="1">
+            <Motor name="fl" port="1" />
+            <Motor name="fr" port="2" />
+        </MotorController>
+        <LightSensor name="bls" port="3" />
+        <LightSensor name="fls" port="4" />
+        <MotorController name="mc3" port="5">
+            <Motor name="intake" port="1" />
+            <Motor name="launcher" port="2" />
+        </MotorController>
+    </LegacyModuleController>
+    <DeviceInterfaceModule name="Device Interface Module 2" serialNumber="AL00VCR7">
+        <ColorSensor name="clr" port="0" />
+        <I2cDevice name="frs" port="1" />
+        <I2cDevice name="lrs" port="2" />
+        <OpticalDistanceSensor name="ods1" port="0" />
+        <OpticalDistanceSensor name="ods2" port="1" />
+    </DeviceInterfaceModule>
+</Robot>
