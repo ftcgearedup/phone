@@ -12,24 +12,22 @@
         <Servo name="p5" port="5" />
     </ServoController>
     <MotorController name="Motor Controller 2" serialNumber="AI049PNM">
-        <Motor name="br" port="1" />
-        <Motor name="bl" port="2" />
+        <Motor name="fl" port="1" />
+        <Motor name="fr" port="2" />
     </MotorController>
     <MotorController name="Motor Controller 4" serialNumber="AI049QD4">
         <Motor name="s1" port="1" />
         <Motor name="s2" port="2" />
     </MotorController>
     <MotorController name="Motor Controller 1" serialNumber="AI049Q61">
-        <Motor name="fr" port="1" />
-        <Motor name="fl" port="2" />
+        <Motor name="bl" port="1" />
+        <Motor name="br" port="2" />
     </MotorController>
     <DeviceInterfaceModule name="Device Interface Module 2" serialNumber="AL00VCR7">
         <ColorSensor name="clr" port="0" />
         <ColorSensor name="clr2" port="1" />
         <Gyro name="gy" port="2" />
         <ModernRoboticsI2cRangeSensor name="frs" port="3" />
-        <I2cDeviceSynch name="clr_i2c" port="4" />
-        <I2cDeviceSynch name="clr2_i2c" port="5" />
         <OpticalDistanceSensor name="diskOds" port="0" />
         <OpticalDistanceSensor name="launcherOds" port="1" />
         <OpticalDistanceSensor name="ods3" port="2" />
