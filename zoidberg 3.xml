@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <ServoController name="Servo Controller 1" serialNumber="AL00VDVP">
+        <Servo name="b1" port="1" />
+        <Servo name="r2" port="2" />
+        <Servo name="d3" port="3" />
+        <Servo name="l4" port="4" />
+        <Servo name="p5" port="5" />
+        <Servo name="l6" port="6" />
+    </ServoController>
+    <MotorController name="Motor Controller 1" serialNumber="AI049PF2">
+        <NeveRest40Gearmotor name="intake" port="1" />
+        <NeveRest40Gearmotor name="launcher" port="2" />
+    </MotorController>
+    <MotorController name="Motor Controller 0" serialNumber="AI049Q61">
+        <NeveRest40Gearmotor name="fr" port="1" />
+        <NeveRest40Gearmotor name="fl" port="2" />
+    </MotorController>
+    <MotorController name="Motor Controller 3" serialNumber="AI049QD4">
+        <NeveRest60Gearmotor name="s1" port="1" />
+        <NeveRest40Gearmotor name="s2" port="2" />
+    </MotorController>
+    <DeviceInterfaceModule name="Device Interface Module 1" serialNumber="AL00VCR7">
+        <ColorSensor name="clr" port="0" />
+        <ColorSensor name="clr2" port="1" />
+        <ModernRoboticsI2cRangeSensor name="frs" port="2" />
+        <ColorSensor name="lcCs" port="3" />
+        <Gyro name="gy" port="4" />
+        <OpticalDistanceSensor name="diskOds" port="0" />
+        <OpticalDistanceSensor name="lOds" port="1" />
+        <OpticalDistanceSensor name="rOds" port="2" />
+        <TouchSensor name="ts" port="0" />
+    </DeviceInterfaceModule>
+    <MotorController name="Motor Controller 2" serialNumber="AI049PNM">
+        <NeveRest40Gearmotor name="bl" port="1" />
+        <NeveRest40Gearmotor name="br" port="2" />
+    </MotorController>
+</Robot>
